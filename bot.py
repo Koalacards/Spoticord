@@ -16,7 +16,8 @@ async def on_ready():
 
 @slash.slash(name='dummmy', guild_ids=GUILD_IDS)
 async def dummmy(ctx):
-    dbfunc.get_user_ids() 
+    dbfunc.get_user_ids()
+    await ctx.send("Dummmy thick ;)")
 
 
 
